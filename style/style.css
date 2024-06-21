@@ -1,0 +1,469 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+   align-items: center;
+}
+
+.manu-bar {
+ display: flex;
+ list-style: none;
+ gap: 40px;
+ font-size: 28px;
+ font-weight: 500;
+ color: #ffff;
+ font-family: sans-serif;
+
+}
+
+.logo-photo{
+     width: 200px;
+     margin-top: 5px;
+     
+}
+
+ .button {
+    height: 50px;
+    width:100px;
+    background-color: rgb(238, 91, 33);
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+.button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+manu-bar{
+    
+}
+
+.main-drescription{
+    background-image: url("../new-year-new-me/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    text-align: right;
+  
+   
+   
+    
+}
+
+.drescription-title{
+    color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.drescription-content{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 400;
+align-items: center;
+margin-top: 20px;
+
+}
+.Contact-Us{
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #ffff;
+    background-color: #FD6E0A;
+text-align: center;
+font-family: "Open Sans";
+font-size: 20px;
+padding: 10px;
+font-weight: 700;
+line-height: normal;
+margin-top: 30px;
+}
+
+.drescription{
+    padding: 270px 250px 50px 50px;
+}
+
+
+.manu-bar a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.manu-bar a:hover{
+   
+    background-color: #FD6E0A;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+   
+}
+
+.drescription-style{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.drescription-grap{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 400;
+align-items: center;
+margin-top: 20px;
+}
+
+
+.drescription-ol{
+    color: var(--Dark-03, #a6a7a6);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.drescription-parent{
+display: flex;
+/* background-color: rgb(247, 246, 246); */
+
+align-items: center;
+padding-left: 400px;
+
+}
+
+
+ul li {
+    list-style: none;
+    
+}
+
+
+
+.content{
+    margin-left: 60px;
+}
+
+.my-plans-title{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.my-plans-skils{
+    align-items: center;
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-plans-content{
+    color: var(--Dark-03, #535353);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 20px;
+}
+.skils-plans{
+    display: flex;
+    justify-content:center;
+    gap: 90px;
+   text-align: center;
+    
+}
+
+
+
+.Awlays-keep{
+    background-image: url("../new-year-new-me/images/watch.png");
+    background-repeat: no-repeat;
+    min-height: 300px;
+    max-width: 100%;
+    margin-top: auto;
+
+    margin-top: 150px;
+    justify-content: center;
+    margin-left: 350px;
+   
+}
+
+.Awlays-keep-text{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.Awlays-keep{
+   padding-left: 100px;
+   padding-top: 120px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+
+
+}
+.button-call{
+    background-color: #FD6E0A;
+}
+
+
+
+/* .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url('../new-year-new-me/images/watch.png') 
+    
+}
+.background {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 165, 0, 0.8); /* Orange with 80% opacity */
+    /* z-index: -1;
+}
+.content {
+    padding: 20px;
+}
+.button {
+    background-color: #ff5722; /* Button color */
+    /* color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+/* } */
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+ position: relative;
+ text-align: left;
+ color: white;
+ overflow: hidden;
+ max-width: 70%;
+ margin: auto;
+ border-radius: 10px;
+ background-image: url('../new-year-new-me/images/watch.png');
+ background-size: cover;
+ background-position: center;
+ height: 300px; /* Adjust the height as needed */
+ margin-top: 100px;
+ margin-bottom: 200px;
+}
+
+.background-image{
+    width: 100%;
+    height: auto;
+}
+.overlay{
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(to right, rgba(255, 88, 37, 0.7), rgba(255, 251, 251, 0.3)), 
+    url('Screenshot_1.png');
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    z-index: 1;
+    
+
+}
+
+.text-ovar{
+    font-size: 2em;
+            font-weight: bold;
+            text-align: left;
+            width: 100%;
+            max-width: 600px;
+
+}
+
+.button-call {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: rgb(252, 101, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    width: 150px; /* Fixed width for consistency */
+}
+footer{
+    background-color: black;
+    
+}
+
+.Future-title{
+ color: aliceblue;
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Future-drescription{
+    color: rgb(197, 186, 186);
+    font-size: 18px;
+   font-family: Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+   
+}
+.Future-drescription-email{
+    color: rgb(197, 186, 186);
+    font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.Subscribe{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.Enter-Your-Email{
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 70px 20px 20px;
+    border: 2px solid rgb(217, 224, 230);
+    border-radius: 10px;
+}
+
+.Subscribe-button{
+    background-color: aliceblue;
+    color: #e06004;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 18px 40px 18px 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-future-section{
+    display: flex;
+    /* align-items: center; */
+    gap: 500px;
+    padding: 70px 40px 20px 200px ;
+
+}
+
+.footer-title{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.footer-image{
+
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+
+.footer-list{
+    color: aliceblue;
+    list-style: none;
+   align-items: center;
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   gap: 30px;
+
+}
+.footer-details{
+    height: 200px;
+}
+
+
+.label{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Copyright-footer{
+ background-color: black;
+ height: 40px;
+ margin: auto;
+
+
+}
+
+.Copyright{
+    color: rgb(255, 246, 228);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    
+}
